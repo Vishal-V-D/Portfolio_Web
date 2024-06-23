@@ -26,6 +26,15 @@ const config = {
       },
     },
     extend: {
+      width: {
+        'lg-90': '90rem', // Define custom width for large breakpoint
+      },
+      height: {
+        'lg-128': '128rem', // Define custom height for large breakpoint
+      },
+      screens: {
+        '2xl': '1536px', // Optionally adjust the 2xl screen size if needed
+      },
       colors: {
         black: {
           DEFAULT: "#000",
@@ -41,7 +50,7 @@ const config = {
         blue: {
           "100": "#E4ECFF",
         },
-        purple: "#CBACF9",
+        purple: "#00F2FF",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

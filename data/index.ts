@@ -1,16 +1,16 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Internships", link: "#intern" },{ name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Aspiring Cybersecurity Specialist and Software Developer Passionate About AI and Cutting-Edge Technologies Dedicated to Continuous Improvement and Client Collaboration",
     description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[50vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Tech innovator with a passion for development.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently pursuing Computer Science and Business System in Chennai Institute Of Technology",
+    description: "Education",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Do you want to Collaborate a project together?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "Spotify Clone",
+    des: "Recreate the immersive experience of Spotify with this clone project. Dive into the world of music streaming, explore playlists, discover new artists, and enjoy your favorite tracks.",
+    img: "/spotify.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://github.com/Vishal-V-D/Spotify_Clone.git",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Gemini AI Clone",
+    des: "Explore the capabilities of artificial intelligence with this Gemini AI clone project. Experience the power of machine learning algorithms in a user-friendly interface designed for seamless interaction.",
+    img: "/gemini.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://github.com/Vishal-V-D/GeminiAi--React.git",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Netflix Clone",
+    des: "Step into the world of on-demand entertainment with this Netflix clone project. Enjoy a vast library of movies and TV shows, personalized recommendations, and a smooth streaming experience reminiscent of the original platform.",
+    img: "/netflix.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/Vishal-V-D/React_Netflix_Clone.git",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Anime Streaming Website",
+    des: "Embark on an anime adventure with this streaming website dedicated to anime enthusiasts. Discover a wide range of anime series and movies, explore genres, and immerse yourself in the captivating world of Japanese animation.",
+    img: "/anime.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/Vishal-V-D/Anime-web.git",
   },
 ];
 
@@ -174,31 +174,42 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using React.js,HTML,CSS,JS enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Java  Dev - Octanet Tech",
+    desc: "Designed and developed mobile app for Android platforms using Flutter and Android studio.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Python intern - Octanet-Tech",
+    desc: "Led the development of a data analysis tool for a client, from initial concept to deployment in production using Python",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Web Developer- Codsoft",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
+  }, {
+    id: 5,
+    title: "Networking Essentials - Cisco",
+    desc: "Developed and maintained network infrastructure solutions using Cisco technologies.",
+    thumbnail: "/exp1.svg",
   },
+  {
+    id: 6,
+    title: "Campus Ambassador Intern at IIM Bangalore",
+    desc: "As a Campus Ambassador Intern at IIM Bangalore,I was responsible with my leadership skills.",
+    thumbnail: "/exp3.svg"
+  }
 ];
 
 export const socialMedia = [
